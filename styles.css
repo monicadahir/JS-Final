@@ -28,7 +28,7 @@ p {
     justify-content: center;
 }
 
-.button, .button.inactive {
+button {
 	flex-grow: 1;
     flex: 1 1 30%;
     padding: 20px;
@@ -40,7 +40,7 @@ p {
     border-radius: 10px;
 }
 
-.button.active {
+button:hover {
 	background-color: #EE8E49;
 	color: #250032;
 	transition: 1s;
