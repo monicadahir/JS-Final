@@ -1,0 +1,53 @@
+* {
+	margin: 0 auto;
+}
+
+body {
+	font-family: 'Encode Sans Expanded:400', sans-serif;
+	color: #250032;
+	margin: 20px;
+	text-align: center;
+	background-color: #EDC9AF;
+}
+
+h1 {
+	font-family: 'Encode Sans Expanded:600', sans-serif;
+	font-size: 6vw;
+}
+
+p {
+	margin: 10px;
+	font-size: 1rem;
+}
+
+.container {
+	width: 60vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.button, .button.inactive {
+	flex-grow: 1;
+    flex: 1 1 30%;
+    padding: 20px;
+    margin: 10px;
+    border-style: none;
+    background-color: #250032;
+    font-size: 2rem;
+    color: #EDC9AF;
+    border-radius: 10px;
+}
+
+.button.active {
+	background-color: #EE8E49;
+	color: #250032;
+	transition: 1s;
+}
+
+#horoscope {
+	display: none;
+	margin: 30px;
+	font-size: 1.3rem;
+}
